@@ -19,3 +19,8 @@ The spec is the authority on behaviour and brand rules; Figma is the authority o
 11. **CHECK action card** in Pink Pairs is longer than 12 words, because the spec requires the event poster text verbatim.
 12. **Character motion** applies to the whole character, not to individual limbs (spec §3 describes per-limb actions). To animate
     limbs, split the Figma SVG groups into separately animated layers.
+13. **Phone refresh (Oct 2026).** The header shows only the RIT Dubai logo and menu (club name text removed; it stays in the footer, CTA and
+    page metadata). On phones, game cards put the character top-right with a full-width button, the hero stage shows the busted-myth
+    card with Rosie and Pinky, and "Meet your guides" becomes 2-column cards with name, role and catchphrase together. Avatars are
+    re-cropped (78px art at -7,2) so the whole head fits the ring. Figma M1 and the mobile Header component are updated to match;
+    the mobile "Meet your guides" section exists only in code.
