@@ -7,7 +7,7 @@ let client: SupabaseClient | null = null;
 /** Browser client — used only for anonymous auth and realtime broadcast; it has no table access. */
 export function browserSupabase() {
   if (!client) {
-    client = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL!, process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!, {
+    client = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL!, (process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ?? process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY)!, {
       auth: { persistSession: true, autoRefreshToken: true, storageKey: "mythbusters-auth" },
     });
   }
