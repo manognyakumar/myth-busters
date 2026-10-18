@@ -9,10 +9,10 @@ export function CategoryGrid() {
   return (
     <div className="mt-4 grid gap-4 lg:grid-cols-[1fr_300px_300px] lg:grid-rows-[440px_440px]">
       {/* The Basics */}
-      <article className="flex items-end overflow-hidden rounded-ui bg-blush pl-5 pr-3 pt-5 lg:pl-10 lg:pr-6 lg:pt-10">
-        <div className="flex flex-1 flex-col items-start gap-3.5 self-stretch pb-5 lg:pb-10">
+      <article className="relative flex items-end overflow-hidden rounded-ui bg-blush p-5 lg:pb-0 lg:pl-10 lg:pr-6 lg:pt-10">
+        <div className="flex flex-1 flex-col items-start gap-3.5 self-stretch lg:pb-10">
           <Chip tone="magenta">Good first game</Chip>
-          <h3 className="text-[24px] font-extrabold leading-[1.05] lg:text-[40px]">Myth or Fact? — The Basics</h3>
+          <h3 className="max-w-[11ch] text-[26px] font-extrabold leading-[1.05] lg:max-w-none lg:text-[40px]">Myth or Fact? The Basics</h3>
           <div className="flex flex-wrap gap-1.5">
             <Chip tone="rose">Easy</Chip>
             <Chip>10-question quiz</Chip>
@@ -20,15 +20,17 @@ export function CategoryGrid() {
           <p className="flex-1 text-body lg:text-body-lg">
             Detective Rosie shows you a statement. You decide: myth or fact? Then see what the evidence says.
           </p>
-          <ButtonLink href="/play/basics" size="large" className="hidden lg:inline-flex">
+          <div className="hidden lg:block">
+            <ButtonLink href="/play/basics" size="large">
+              Play The Basics
+            </ButtonLink>
+          </div>
+          <ButtonLink href="/play/basics" className="w-full lg:hidden">
             Play The Basics
-          </ButtonLink>
-          <ButtonLink href="/play/basics" className="lg:hidden">
-            Play
           </ButtonLink>
         </div>
         <Character id="rosie" size={290} className="hidden lg:block" />
-        <Character id="rosie" size={110} className="lg:hidden" />
+        <Character id="rosie" size={112} className="absolute right-3 top-3 lg:hidden" />
       </article>
 
       <SmallCard
@@ -49,9 +51,9 @@ export function CategoryGrid() {
       />
 
       {/* Pink Pairs */}
-      <article className="flex items-end gap-6 overflow-hidden rounded-ui bg-magenta pl-5 pr-3 pt-5 text-white lg:col-span-2 lg:pl-10 lg:pr-6 lg:pt-10">
-        <div className="flex flex-col items-start gap-3.5 self-stretch pb-5 lg:w-[420px] lg:shrink-0 lg:pb-10">
-          <h3 className="text-[24px] font-extrabold leading-[1.1] lg:text-[40px]">Pink Pairs</h3>
+      <article className="relative flex items-end gap-6 overflow-hidden rounded-ui bg-magenta p-5 text-white lg:col-span-2 lg:pb-0 lg:pl-10 lg:pr-6 lg:pt-10">
+        <div className="flex w-full flex-col items-start gap-3.5 self-stretch lg:w-[420px] lg:shrink-0 lg:pb-10">
+          <h3 className="max-w-[8ch] text-[26px] font-extrabold leading-[1.05] max-lg:min-h-[72px] lg:max-w-none lg:text-[40px]">Pink Pairs</h3>
           <div className="flex flex-wrap gap-1.5">
             <span className="rounded-tag bg-blush px-2.5 py-1 text-label-sm font-semibold text-ink">Easy or Challenge</span>
             <span className="rounded-tag bg-white px-2.5 py-1 text-label-sm font-semibold text-ink">Memory game, untimed in Easy</span>
@@ -59,7 +61,7 @@ export function CategoryGrid() {
           <p className="flex-1 text-body lg:text-body-lg">
             Flip cards to match a myth with its correction, or a theme with an action. A calm game for every age.
           </p>
-          <div className="flex flex-wrap gap-2.5">
+          <div className="flex w-full flex-col gap-2.5 sm:flex-row lg:w-auto">
             <ButtonLink href="/pink-pairs/easy" variant="secondary">
               Play Easy
             </ButtonLink>
@@ -74,13 +76,13 @@ export function CategoryGrid() {
           <PairCardView state="matched" text="Men can develop breast cancer too." className="absolute left-[352px] top-[55px] h-[222px] w-[185px] rotate-6" />
           <Character id="pinky" size={140} className="absolute left-[250px] top-[260px]" />
         </div>
-        <Character id="pinky" size={110} className="lg:hidden" />
+        <Character id="pinky" size={108} className="absolute right-3 top-3 lg:hidden" />
       </article>
 
       {/* Ultimate */}
-      <article className="flex flex-col items-start gap-3 rounded-ui bg-plum p-5 text-white lg:p-7">
-        <Character id="captain" size={93} />
-        <h3 className="text-h3 font-extrabold">The Ultimate Myth Buster</h3>
+      <article className="relative flex flex-col items-start gap-3 rounded-ui bg-plum p-5 text-white lg:p-7">
+        <Character id="captain" size={93} className="max-lg:absolute max-lg:right-3 max-lg:top-3 max-lg:size-[104px]!" />
+        <h3 className="max-w-[11ch] text-[26px] font-extrabold leading-[1.05] max-lg:min-h-[72px] lg:max-w-none lg:text-h3">The Ultimate Myth Buster</h3>
         <div className="flex flex-wrap gap-1.5">
           <Chip tone="rose">Challenging</Chip>
           <span className="rounded-tag bg-lavender px-2.5 py-1 text-label-sm font-semibold text-ink">15-question mixed quiz</span>
@@ -110,9 +112,9 @@ function SmallCard({
   text: string;
 }) {
   return (
-    <article className="flex flex-col items-start gap-3 rounded-ui bg-lavender p-5 lg:p-7">
-      <Character id={character} size={124} />
-      <h3 className="text-h3 font-extrabold">{title}</h3>
+    <article className="relative flex flex-col items-start gap-3 rounded-ui bg-lavender p-5 lg:p-7">
+      <Character id={character} size={124} className="max-lg:absolute max-lg:right-3 max-lg:top-3 max-lg:size-[104px]!" />
+      <h3 className="max-w-[10ch] text-[26px] font-extrabold leading-[1.05] max-lg:min-h-[72px] lg:max-w-none lg:text-h3">{title}</h3>
       <div className="flex flex-wrap gap-1.5">
         <Chip tone="rose">{difficulty}</Chip>
         <Chip>{kind}</Chip>

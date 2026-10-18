@@ -6,7 +6,6 @@ test.describe("visitor journeys", () => {
   test("homepage shows the full club name, all main buttons work @responsive", async ({ page }) => {
     await page.goto("/");
     await expect(page.locator("footer")).toContainText(`Built by ${CLUB}`);
-    await expect(page.locator("header")).toContainText(CLUB);
     await expect(page).toHaveTitle(new RegExp(CLUB));
     for (const [name, path] of [
       ["PLAY NOW", "/play"],

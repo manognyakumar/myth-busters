@@ -14,7 +14,7 @@ export default function HomePage() {
 
       {/* Hero */}
       <section className="overflow-hidden bg-blush">
-        <div className="mx-auto flex max-w-[1440px] flex-col gap-6 px-4 pt-8 lg:flex-row lg:items-end lg:px-16 lg:pt-16">
+        <div className="mx-auto flex max-w-[1440px] flex-col gap-6 px-4 pt-6 lg:flex-row lg:items-end lg:px-16 lg:pt-16">
           <div className="flex flex-col items-start gap-[22px] lg:w-[740px] lg:shrink-0 lg:pb-[72px]">
             <p aria-hidden className="font-display text-[clamp(44px,12vw,128px)] leading-[0.86] tracking-[-0.02em] text-ink">
               MYTH
@@ -41,15 +41,15 @@ export default function HomePage() {
           </div>
 
           {/* Stage: a myth, busted */}
-          <div className="relative h-[330px] min-w-0 flex-1 lg:h-[640px]" aria-hidden>
-            <div className="absolute left-0 top-[50px] flex w-[300px] flex-col items-start gap-3 rounded-answer bg-white p-[22px] lg:left-[60px] lg:top-[150px] lg:w-[470px] lg:gap-[18px] lg:p-9">
+          <div className="relative h-[360px] min-w-0 lg:h-[640px] lg:flex-1" aria-hidden>
+            <div className="absolute left-0 top-[44px] flex w-[272px] flex-col items-start gap-3 rounded-answer bg-white p-[22px] lg:left-[60px] lg:top-[150px] lg:w-[470px] lg:gap-[18px] lg:p-9">
               <div className="flex flex-col gap-1">
                 {["Breast cancer only", "happens to women."].map((line) => (
                   <span key={line} className="relative inline-block">
                     <span className="text-[20px] font-black leading-[1.1] tracking-[-0.5px] text-ink opacity-85 lg:text-[30px]">
                       {line}
                     </span>
-                    <span className="absolute -left-2 -right-2 top-[55%] h-1.5 rotate-[1.2deg] rounded-[3px] bg-magenta" />
+                    <span className="absolute -left-2 -right-2 top-[52%] h-1.5 rotate-[1.2deg] rounded-[3px] bg-magenta" />
                   </span>
                 ))}
               </div>
@@ -65,12 +65,12 @@ export default function HomePage() {
             <div className="absolute left-[96px] top-[72px] hidden rounded-ui bg-white px-4 py-3 text-label font-semibold lg:block">
               Let’s investigate this claim!
             </div>
-            <div className="absolute right-0 top-0 lg:left-[372px] lg:right-auto lg:top-[10px]">
+            <div className="absolute -right-1 top-0 lg:left-[372px] lg:right-auto lg:top-[10px]">
               <Character id="rosie" size={124} className="lg:hidden" />
               <Character id="rosie" size={210} motion="bob" className="hidden lg:block" />
             </div>
-            <div className="absolute right-4 top-[210px] lg:-left-10 lg:right-auto lg:top-[450px]">
-              <Character id="pinky" size={120} className="lg:hidden" />
+            <div className="absolute -right-1 bottom-0 lg:-left-10 lg:bottom-auto lg:right-auto lg:top-[450px]">
+              <Character id="pinky" size={132} className="lg:hidden" />
               <Character id="pinky" size={190} motion="wave" className="hidden lg:block" />
             </div>
           </div>
@@ -95,22 +95,26 @@ export default function HomePage() {
 
       {/* Meet your guides */}
       <section aria-labelledby="guides-heading" className="bg-lavender">
-        <div className="mx-auto flex max-w-[1440px] flex-col gap-10 px-4 pt-14 lg:px-16 lg:pt-[88px]">
+        <div className="mx-auto flex max-w-[1440px] flex-col gap-6 px-4 pt-12 lg:px-16 lg:pt-[88px]">
           <h2 id="guides-heading" className="font-display text-[40px] leading-none lg:text-title">
             Meet your guides
           </h2>
-          <ul className="grid grid-cols-2 items-end gap-6 sm:grid-cols-3 lg:grid-cols-5">
+          <ul className="grid grid-cols-2 items-stretch gap-3 pb-12 sm:grid-cols-3 lg:grid-cols-5 lg:items-end lg:gap-6 lg:pb-0">
             {CHARACTER_IDS.map((id) => (
-              <li key={id} className="flex flex-col items-center gap-3.5">
-                <p className="w-full rounded-ui bg-white px-3.5 py-3 text-center text-label font-semibold">{CHARACTERS[id].catchphrase}</p>
-                <Character id={id} size={150} className="lg:hidden" />
+              <li key={id} className="flex flex-col items-center gap-3 max-lg:rounded-answer max-lg:bg-white max-lg:p-3 max-lg:pb-4 lg:gap-3.5">
+                <p className="w-full rounded-ui px-2 py-1 text-center text-label-sm font-semibold max-lg:min-h-[3.5rem] max-lg:bg-blush max-lg:py-2.5 lg:bg-white lg:px-3.5 lg:py-3 lg:text-label">{CHARACTERS[id].catchphrase}</p>
+                <Character id={id} size={128} className="lg:hidden" />
+                <span className="flex flex-col items-center text-center lg:hidden">
+                  <span className="text-[17px] font-extrabold leading-tight">{CHARACTERS[id].name}</span>
+                  <span className="text-caption text-magenta">{CHARACTERS[id].role}</span>
+                </span>
                 <Character id={id} size={190} motion="bob" className="hidden lg:block" />
               </li>
             ))}
           </ul>
         </div>
       </section>
-      <section aria-label="Guide names" className="bg-plum">
+      <section aria-label="Guide names" className="hidden bg-plum lg:block">
         <ul className="mx-auto grid max-w-[1440px] grid-cols-2 gap-6 px-4 pb-8 pt-6 sm:grid-cols-3 lg:grid-cols-5 lg:px-16">
           {CHARACTER_IDS.map((id) => (
             <li key={id} className="flex flex-col items-center gap-1 text-center">

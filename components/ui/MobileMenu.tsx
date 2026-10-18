@@ -12,7 +12,7 @@ export function MobileMenu() {
     <>
       <button
         type="button"
-        className="flex size-12 items-center justify-center rounded-ui lg:hidden"
+        className="ml-auto flex size-12 items-center justify-center rounded-ui lg:hidden"
         aria-expanded={open}
         aria-controls="mobile-nav"
         onClick={() => setOpen((o) => !o)}

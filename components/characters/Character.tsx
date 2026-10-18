@@ -32,7 +32,7 @@ export function Character({
   );
 }
 
-/** Figma Avatar/* components (3:91 … 3:163): 64px circle, 3px ring, art at 100px offset (-21,-15). */
+/** Figma Avatar/* components (3:91 … 3:163): 64px circle, 3px ring, art at 78px offset (-7,2) so the whole head fits the ring. */
 export function Avatar({ id, size = 64, className = "" }: { id: CharacterId; size?: number; className?: string }) {
   const c = CHARACTERS[id];
   const k = size / 64;
@@ -50,7 +50,7 @@ export function Avatar({ id, size = 64, className = "" }: { id: CharacterId; siz
         height={100}
         alt=""
         className="absolute max-w-none"
-        style={{ width: 100 * k, height: 100 * k, left: -21 * k, top: -15 * k }}
+        style={{ width: 78 * k, height: 78 * k, left: -7 * k, top: 2 * k }}
       />
     </span>
   );
