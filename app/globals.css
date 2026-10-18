@@ -1,0 +1,142 @@
+@import "tailwindcss";
+
+/* Campaign tokens — Figma "Foundations" (node 12:2). Only these colours exist in the UI. */
+@theme {
+  --color-*: initial;
+  --color-transparent: transparent;
+  --color-current: currentColor;
+  --color-inherit: inherit;
+
+  --color-blush: #fce7f3;
+  --color-rose: #ec4899;
+  --color-magenta: #be185d;
+  --color-magenta-deep: #9d174d;
+  --color-lavender: #ede9fe;
+  --color-lavender-mid: #c4b5fd;
+  --color-plum: #30152f;
+  --color-plum-end: #4a1d45;
+  --color-ink: #292235;
+  --color-white: #ffffff;
+  --color-warm-gray: #d7d2cb;
+  --color-gold: #e9b949;
+  --color-silver: #c0c4cc;
+  --color-bronze: #c98b5a;
+  --color-success: #15803d;
+  --color-track: rgb(255 255 255 / 0.2);
+  --color-row: rgb(255 255 255 / 0.08);
+
+  --font-sans: var(--font-archivo), system-ui, sans-serif;
+
+  /* Type scale (Figma text styles) */
+  --text-hero: 88px;
+  --text-hero--line-height: 1;
+  --text-title: 56px;
+  --text-title--line-height: 1;
+  --text-score: 48px;
+  --text-score--line-height: 1;
+  --text-h2: 36px;
+  --text-h2--line-height: 1.1;
+  --text-h3: 24px;
+  --text-h3--line-height: 1.2;
+  --text-body-lg: 20px;
+  --text-body-lg--line-height: 1.6;
+  --text-body: 16px;
+  --text-body--line-height: 1.6;
+  --text-label: 16px;
+  --text-label--line-height: 1.2;
+  --text-label--letter-spacing: 0.2px;
+  --text-label-sm: 13px;
+  --text-label-sm--line-height: 1.2;
+  --text-label-sm--letter-spacing: 0.4px;
+  --text-caption: 13px;
+  --text-caption--line-height: 1.5;
+
+  --radius-tag: 4px;
+  --radius-ui: 6px;
+  --radius-pair: 10px;
+  --radius-answer: 12px;
+}
+
+/* Display styles: Archivo 800/900 at 125% width (Figma Foundations implementation note). */
+@utility font-display {
+  font-weight: 900;
+  font-stretch: 125%;
+  font-variation-settings: "wdth" 125;
+}
+
+@utility bg-plum-gradient {
+  background: linear-gradient(180deg, var(--color-plum) 0%, var(--color-plum-end) 100%);
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--color-white);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Booth display (/leaderboard?display=booth): no site navigation. */
+body[data-booth] header,
+body[data-booth] footer,
+body[data-booth] [href="#main"] {
+  display: none;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-rose);
+  outline-offset: 2px;
+}
+
+/* Icons: Figma line icons rendered as masks so they inherit currentColor. */
+.icon {
+  display: inline-block;
+  flex-shrink: 0;
+  background-color: currentColor;
+  mask: var(--icon) center / contain no-repeat;
+  -webkit-mask: var(--icon) center / contain no-repeat;
+}
+
+@keyframes mb-bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+@keyframes mb-wave {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-6deg); }
+  75% { transform: rotate(6deg); }
+}
+@keyframes mb-pop {
+  0% { transform: scale(0.9); opacity: 0; }
+  60% { transform: scale(1.04); opacity: 1; }
+  100% { transform: scale(1); }
+}
+@keyframes mb-fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes mb-confetti {
+  0% { transform: translateY(-10vh) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(60vh) rotate(360deg); opacity: 0; }
+}
+@keyframes mb-dissolve {
+  0% { opacity: 1; transform: scale(1); filter: blur(0); }
+  100% { opacity: 0.4; transform: scale(1.05); filter: blur(1px); }
+}
+
+.anim-bob { animation: mb-bob 3s ease-in-out infinite; }
+.anim-wave { animation: mb-wave 1.2s ease-in-out 2; transform-origin: 50% 90%; }
+.anim-pop { animation: mb-pop 0.4s ease-out both; }
+.anim-fade { animation: mb-fade 0.3s ease-out both; }
+.anim-dissolve { animation: mb-dissolve 0.8s ease-out forwards; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .anim-bob, .anim-wave { animation: none !important; }
+  .anim-pop, .anim-dissolve { animation: mb-fade 0.2s ease-out both !important; }
+}
