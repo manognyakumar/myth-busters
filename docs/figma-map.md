@@ -21,7 +21,7 @@ Use this table to re-sync a screen: open the node, compare with `get_screenshot`
 | 01 Homepage / M1 | `17:2902` / `20:4680` | `app/(site)/page.tsx` |
 | 02 Nickname & character | `7:537` | `app/(site)/start/StartScreen.tsx`, `components/player/ProfileForm.tsx` |
 | 03 Category selection | `7:689` | `app/(site)/play/page.tsx`, `TimerOption.tsx`, `components/player/PlayingAs.tsx` |
-| 04 How to play | `8:695` | `app/(site)/how-to-play/page.tsx` |
+| 04 How to play / M5 | `8:695` / `33:4409` | `app/(site)/how-to-play/page.tsx` |
 | 05 / 06 Quiz question + feedback / M2 | `8:860`, `8:962` / `11:235` | `components/quiz/QuizGame.tsx` |
 | 07 Pink Pairs — choose a mode | `8:1101` | `app/(site)/pink-pairs/page.tsx` |
 | 08 / 09 / 10 Pink Pairs grid, match, completion / M3 | `9:1005`, `9:1202`, `9:1310` / `11:319` | `components/pairs/PairsGame.tsx` |

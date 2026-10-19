@@ -22,5 +22,7 @@ The spec is the authority on behaviour and brand rules; Figma is the authority o
 13. **Phone refresh (Oct 2026).** The header shows only the RIT Dubai logo and menu (club name text removed; it stays in the footer, CTA and
     page metadata). On phones, game cards put the character top-right with a full-width button, the hero stage shows the busted-myth
     card with Rosie and Pinky, and "Meet your guides" becomes 2-column cards with name, role and catchphrase together. Avatars are
-    re-cropped (78px art at -7,2) so the whole head fits the ring. Figma M1 and the mobile Header component are updated to match;
+    re-cropped (60px art centred in the 64px ring) so the whole figure fits. Figma M1 and the mobile Header component are updated to match;
     the mobile "Meet your guides" section exists only in code.
+14. **How to play alignment (Oct 2026).** Avatar art is centred in every Avatar/* component. Step text starts 5px below the top of its row
+    so the first line sits level with the 36px number circle. Figma 04 is updated and a mobile frame M5 (`33:4409`) is added.
