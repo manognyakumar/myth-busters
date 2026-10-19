@@ -71,7 +71,7 @@ export default function HowToPlayPage() {
                   <span className="flex size-9 shrink-0 items-center justify-center rounded-full bg-magenta text-label font-semibold text-white">
                     {i + 1}
                   </span>
-                  <span className="pt-1.5">{s}</span>
+                  <span className="pt-1 leading-7">{s}</span>
                 </li>
               ))}
             </ol>
