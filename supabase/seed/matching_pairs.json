@@ -9,9 +9,9 @@
     "explanation": "Family history can increase risk, but about 80% of breast cancers occur in women with no specific risk factors other than sex and age.",
     "source_name": "World Health Organization — Breast cancer fact sheet",
     "source_url": "https://www.who.int/news-room/fact-sheets/detail/breast-cancer",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "p02",
@@ -23,9 +23,9 @@
     "explanation": "Most breast lumps are harmless, such as cysts or fibroadenomas. A healthcare professional can check any new or persistent lump.",
     "source_name": "NHS — Breast lumps",
     "source_url": "https://www.nhs.uk/conditions/breast-lump/",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "p03",
@@ -37,9 +37,9 @@
     "explanation": "When and how often to screen depends on your age and personal risk. Talk with a healthcare professional about what suits you.",
     "source_name": "National Cancer Institute — Mammograms fact sheet",
     "source_url": "https://www.cancer.gov/types/breast/mammograms-fact-sheet",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "p04",
@@ -51,9 +51,9 @@
     "explanation": "Men have breast tissue too. Breast cancer is much less common in men, but it can happen, usually at an older age.",
     "source_name": "National Cancer Institute — Male Breast Cancer (Patient Version)",
     "source_url": "https://www.cancer.gov/types/breast/patient/male-breast-treatment-pdq",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.015Z"
   },
   {
     "id": "p05",
@@ -65,9 +65,9 @@
     "explanation": "Deaths are reduced when breast cancer is detected and treated early. If you notice a change, getting advice sooner helps.",
     "source_name": "World Health Organization — Breast cancer fact sheet",
     "source_url": "https://www.who.int/news-room/fact-sheets/detail/breast-cancer",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.015Z"
   },
   {
     "id": "p06",
@@ -79,9 +79,9 @@
     "explanation": "Learning what is normal for your body makes it easier to notice something new.",
     "source_name": null,
     "source_url": null,
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.015Z"
   },
   {
     "id": "p07",
@@ -93,9 +93,9 @@
     "explanation": "Most changes are not cancer, but a healthcare professional can tell you what a change means.",
     "source_name": null,
     "source_url": null,
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.015Z"
   },
   {
     "id": "p08",
@@ -107,9 +107,9 @@
     "explanation": "Support matters. Listening without judgement and encouraging a friend to see a professional can make a real difference.",
     "source_name": null,
     "source_url": null,
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.015Z"
   },
   {
     "id": "p09",
@@ -121,8 +121,8 @@
     "explanation": "Taking care of yourself includes regular check-ups and everyday habits like staying active.",
     "source_name": null,
     "source_url": null,
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.015Z"
   }
 ]

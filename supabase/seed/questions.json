@@ -10,9 +10,9 @@
     "explanation_long": "The WHO reports that about 80% of breast cancers occur in women with no specific risk factors other than sex and age.",
     "source_name": "World Health Organization — Breast cancer fact sheet",
     "source_url": "https://www.who.int/news-room/fact-sheets/detail/breast-cancer",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.013Z"
   },
   {
     "id": "b02",
@@ -25,9 +25,9 @@
     "explanation_long": null,
     "source_name": "National Cancer Institute — Male Breast Cancer (Patient Version)",
     "source_url": "https://www.cancer.gov/types/breast/patient/male-breast-treatment-pdq",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "b03",
@@ -40,9 +40,9 @@
     "explanation_long": "The WHO notes that most breast lumps are not cancer, and that anyone with an abnormal lump should seek medical care.",
     "source_name": "World Health Organization — Breast cancer fact sheet",
     "source_url": "https://www.who.int/news-room/fact-sheets/detail/breast-cancer",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "b04",
@@ -55,9 +55,9 @@
     "explanation_long": "The WHO describes a breast lump or thickening that is often without pain, and advises seeking care even if a lump does not hurt.",
     "source_name": "World Health Organization — Breast cancer fact sheet",
     "source_url": "https://www.who.int/news-room/fact-sheets/detail/breast-cancer",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "b05",
@@ -70,9 +70,9 @@
     "explanation_long": null,
     "source_name": "National Cancer Institute — Age and Cancer Risk",
     "source_url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/age",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "b06",
@@ -85,9 +85,9 @@
     "explanation_long": "About 80% of breast cancers occur in women with no specific risk factors other than sex and age.",
     "source_name": "World Health Organization — Breast cancer fact sheet",
     "source_url": "https://www.who.int/news-room/fact-sheets/detail/breast-cancer",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "b07",
@@ -100,9 +100,9 @@
     "explanation_long": null,
     "source_name": "National Cancer Institute — Male Breast Cancer (Patient Version)",
     "source_url": "https://www.cancer.gov/types/breast/patient/male-breast-treatment-pdq",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "b08",
@@ -115,9 +115,9 @@
     "explanation_long": "The NHS says most breast lumps are harmless, for example a fibroadenoma or a cyst, but advises always getting a lump checked by a doctor.",
     "source_name": "NHS — Breast lumps",
     "source_url": "https://www.nhs.uk/conditions/breast-lump/",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "b09",
@@ -130,9 +130,9 @@
     "explanation_long": null,
     "source_name": "World Health Organization — Breast cancer fact sheet",
     "source_url": "https://www.who.int/news-room/fact-sheets/detail/breast-cancer",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "b10",
@@ -145,9 +145,9 @@
     "explanation_long": null,
     "source_name": "National Cancer Institute — Common Cancer Myths and Misconceptions",
     "source_url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/myths",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "b11",
@@ -160,9 +160,9 @@
     "explanation_long": null,
     "source_name": "National Cancer Institute — Antiperspirants/Deodorants and Breast Cancer",
     "source_url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/myths/antiperspirants-fact-sheet",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "b12",
@@ -175,9 +175,9 @@
     "explanation_long": null,
     "source_name": "NHS — Symptoms of breast cancer in women",
     "source_url": "https://www.nhs.uk/conditions/breast-cancer-in-women/symptoms-of-breast-cancer-in-women/",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "b13",
@@ -190,9 +190,9 @@
     "explanation_long": "Even among people who inherit a harmful BRCA1 or BRCA2 change, some never develop cancer.",
     "source_name": "National Cancer Institute — BRCA Gene Changes: Cancer Risk and Genetic Testing",
     "source_url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics/brca-fact-sheet",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "b14",
@@ -205,9 +205,9 @@
     "explanation_long": null,
     "source_name": "World Health Organization — Breast cancer fact sheet",
     "source_url": "https://www.who.int/news-room/fact-sheets/detail/breast-cancer",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "b15",
@@ -220,9 +220,9 @@
     "explanation_long": null,
     "source_name": "NHS — Symptoms of breast cancer in women",
     "source_url": "https://www.nhs.uk/conditions/breast-cancer-in-women/symptoms-of-breast-cancer-in-women/",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "s01",
@@ -235,9 +235,9 @@
     "explanation_long": null,
     "source_name": "NHS — Symptoms of breast cancer in women",
     "source_url": "https://www.nhs.uk/conditions/breast-cancer-in-women/symptoms-of-breast-cancer-in-women/",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "s02",
@@ -250,9 +250,9 @@
     "explanation_long": null,
     "source_name": "World Health Organization — Breast cancer fact sheet",
     "source_url": "https://www.who.int/news-room/fact-sheets/detail/breast-cancer",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "s03",
@@ -265,9 +265,9 @@
     "explanation_long": null,
     "source_name": "World Health Organization — Breast cancer fact sheet",
     "source_url": "https://www.who.int/news-room/fact-sheets/detail/breast-cancer",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "s04",
@@ -280,9 +280,9 @@
     "explanation_long": null,
     "source_name": "NHS — Symptoms of breast cancer in women",
     "source_url": "https://www.nhs.uk/conditions/breast-cancer-in-women/symptoms-of-breast-cancer-in-women/",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "s05",
@@ -295,9 +295,9 @@
     "explanation_long": null,
     "source_name": "NHS — Symptoms of breast cancer in women",
     "source_url": "https://www.nhs.uk/conditions/breast-cancer-in-women/symptoms-of-breast-cancer-in-women/",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "s06",
@@ -310,9 +310,9 @@
     "explanation_long": null,
     "source_name": "World Health Organization — Breast cancer fact sheet",
     "source_url": "https://www.who.int/news-room/fact-sheets/detail/breast-cancer",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "s07",
@@ -325,9 +325,9 @@
     "explanation_long": null,
     "source_name": "NHS — Breast pain",
     "source_url": "https://www.nhs.uk/conditions/breast-pain/",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "s08",
@@ -340,9 +340,9 @@
     "explanation_long": null,
     "source_name": "NHS — Breast pain",
     "source_url": "https://www.nhs.uk/conditions/breast-pain/",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "s09",
@@ -355,9 +355,9 @@
     "explanation_long": "Screening mammograms can find some tumours at an earlier stage, before they cause symptoms.",
     "source_name": "National Cancer Institute — Mammograms fact sheet",
     "source_url": "https://www.cancer.gov/types/breast/mammograms-fact-sheet",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "s10",
@@ -370,9 +370,9 @@
     "explanation_long": null,
     "source_name": "NHS — Symptoms of breast cancer in women",
     "source_url": "https://www.nhs.uk/conditions/breast-cancer-in-women/symptoms-of-breast-cancer-in-women/",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "s11",
@@ -385,9 +385,9 @@
     "explanation_long": null,
     "source_name": "National Cancer Institute — Male Breast Cancer (Patient Version)",
     "source_url": "https://www.cancer.gov/types/breast/patient/male-breast-treatment-pdq",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "s12",
@@ -400,9 +400,9 @@
     "explanation_long": null,
     "source_name": "National Cancer Institute — Understanding Breast Changes",
     "source_url": "https://www.cancer.gov/types/breast/understanding-breast-changes",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "s13",
@@ -415,9 +415,9 @@
     "explanation_long": null,
     "source_name": "NHS — Symptoms of breast cancer in women",
     "source_url": "https://www.nhs.uk/conditions/breast-cancer-in-women/symptoms-of-breast-cancer-in-women/",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "s14",
@@ -430,9 +430,9 @@
     "explanation_long": null,
     "source_name": "National Cancer Institute — Understanding Breast Changes",
     "source_url": "https://www.cancer.gov/types/breast/understanding-breast-changes",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "r01",
@@ -445,9 +445,9 @@
     "explanation_long": "The WHO lists increasing age, obesity, harmful use of alcohol, family history, tobacco use and postmenopausal hormone therapy among risk factors.",
     "source_name": "World Health Organization — Breast cancer fact sheet",
     "source_url": "https://www.who.int/news-room/fact-sheets/detail/breast-cancer",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "r02",
@@ -460,9 +460,9 @@
     "explanation_long": null,
     "source_name": "World Health Organization — Breast cancer fact sheet",
     "source_url": "https://www.who.int/news-room/fact-sheets/detail/breast-cancer",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "r03",
@@ -475,9 +475,9 @@
     "explanation_long": null,
     "source_name": "National Cancer Institute — BRCA Gene Changes: Cancer Risk and Genetic Testing",
     "source_url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics/brca-fact-sheet",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "r04",
@@ -490,9 +490,9 @@
     "explanation_long": null,
     "source_name": "National Cancer Institute — BRCA Gene Changes: Cancer Risk and Genetic Testing",
     "source_url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics/brca-fact-sheet",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "r05",
@@ -505,9 +505,9 @@
     "explanation_long": null,
     "source_name": "National Cancer Institute — BRCA Gene Changes: Cancer Risk and Genetic Testing",
     "source_url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics/brca-fact-sheet",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "r06",
@@ -520,9 +520,9 @@
     "explanation_long": null,
     "source_name": "National Cancer Institute — Alcohol and Cancer Risk",
     "source_url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/alcohol/alcohol-fact-sheet",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "r07",
@@ -535,9 +535,9 @@
     "explanation_long": null,
     "source_name": "World Health Organization — Breast cancer fact sheet",
     "source_url": "https://www.who.int/news-room/fact-sheets/detail/breast-cancer",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "r08",
@@ -550,9 +550,9 @@
     "explanation_long": null,
     "source_name": "National Cancer Institute — Breast Cancer Prevention (Patient Version)",
     "source_url": "https://www.cancer.gov/types/breast/patient/breast-prevention-pdq",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "r09",
@@ -565,9 +565,9 @@
     "explanation_long": null,
     "source_name": "National Cancer Institute — Breast Cancer Prevention (Patient Version)",
     "source_url": "https://www.cancer.gov/types/breast/patient/breast-prevention-pdq",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "r10",
@@ -580,9 +580,9 @@
     "explanation_long": null,
     "source_name": "World Health Organization — Breast cancer fact sheet",
     "source_url": "https://www.who.int/news-room/fact-sheets/detail/breast-cancer",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "r11",
@@ -595,9 +595,9 @@
     "explanation_long": null,
     "source_name": "World Health Organization — Breast cancer fact sheet",
     "source_url": "https://www.who.int/news-room/fact-sheets/detail/breast-cancer",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "r12",
@@ -610,9 +610,9 @@
     "explanation_long": null,
     "source_name": "World Health Organization — Breast cancer fact sheet",
     "source_url": "https://www.who.int/news-room/fact-sheets/detail/breast-cancer",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "r13",
@@ -625,9 +625,9 @@
     "explanation_long": null,
     "source_name": "National Cancer Institute — Breast Cancer Prevention (Patient Version)",
     "source_url": "https://www.cancer.gov/types/breast/patient/breast-prevention-pdq",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "r14",
@@ -640,9 +640,9 @@
     "explanation_long": null,
     "source_name": "National Cancer Institute — BRCA Gene Changes: Cancer Risk and Genetic Testing",
     "source_url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics/brca-fact-sheet",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "r15",
@@ -655,9 +655,9 @@
     "explanation_long": null,
     "source_name": "National Cancer Institute — BRCA Gene Changes: Cancer Risk and Genetic Testing",
     "source_url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics/brca-fact-sheet",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "u01",
@@ -670,9 +670,9 @@
     "explanation_long": null,
     "source_name": "National Cancer Institute — Mammograms fact sheet",
     "source_url": "https://www.cancer.gov/types/breast/mammograms-fact-sheet",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "u02",
@@ -685,9 +685,9 @@
     "explanation_long": null,
     "source_name": "National Cancer Institute — Mammograms fact sheet",
     "source_url": "https://www.cancer.gov/types/breast/mammograms-fact-sheet",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "u03",
@@ -700,9 +700,9 @@
     "explanation_long": null,
     "source_name": "National Cancer Institute — Mammograms fact sheet",
     "source_url": "https://www.cancer.gov/types/breast/mammograms-fact-sheet",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "u04",
@@ -715,9 +715,9 @@
     "explanation_long": null,
     "source_name": "National Cancer Institute — Breast Cancer Screening (Patient Version)",
     "source_url": "https://www.cancer.gov/types/breast/patient/breast-screening-pdq",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "u05",
@@ -730,9 +730,9 @@
     "explanation_long": null,
     "source_name": "National Cancer Institute — Mammograms fact sheet",
     "source_url": "https://www.cancer.gov/types/breast/mammograms-fact-sheet",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "u06",
@@ -745,9 +745,9 @@
     "explanation_long": null,
     "source_name": "World Health Organization — Breast cancer fact sheet",
     "source_url": "https://www.who.int/news-room/fact-sheets/detail/breast-cancer",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "u07",
@@ -760,9 +760,9 @@
     "explanation_long": null,
     "source_name": "National Cancer Institute — Male Breast Cancer (Patient Version)",
     "source_url": "https://www.cancer.gov/types/breast/patient/male-breast-treatment-pdq",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "u08",
@@ -775,9 +775,9 @@
     "explanation_long": null,
     "source_name": "National Cancer Institute — Common Cancer Myths and Misconceptions",
     "source_url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/myths",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "u09",
@@ -790,9 +790,9 @@
     "explanation_long": null,
     "source_name": "National Cancer Institute — Common Cancer Myths and Misconceptions",
     "source_url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/myths",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "u10",
@@ -805,9 +805,9 @@
     "explanation_long": null,
     "source_name": "National Cancer Institute — Common Cancer Myths and Misconceptions",
     "source_url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/myths",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "u11",
@@ -820,9 +820,9 @@
     "explanation_long": null,
     "source_name": "National Cancer Institute — BRCA Gene Changes: Cancer Risk and Genetic Testing",
     "source_url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics/brca-fact-sheet",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "u12",
@@ -835,9 +835,9 @@
     "explanation_long": null,
     "source_name": "NHS — Breast lumps",
     "source_url": "https://www.nhs.uk/conditions/breast-lump/",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "u13",
@@ -850,9 +850,9 @@
     "explanation_long": null,
     "source_name": "National Cancer Institute — Common Cancer Myths and Misconceptions",
     "source_url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/myths",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   },
   {
     "id": "u14",
@@ -865,8 +865,8 @@
     "explanation_long": null,
     "source_name": "World Health Organization — Breast cancer fact sheet",
     "source_url": "https://www.who.int/news-room/fact-sheets/detail/breast-cancer",
-    "review_status": "draft",
-    "reviewer": null,
-    "reviewed_at": null
+    "review_status": "approved",
+    "reviewer": "University Clinic — Dr. …",
+    "reviewed_at": "2026-10-19T05:15:09.014Z"
   }
 ]
