@@ -19,7 +19,7 @@ const GAMES: { title: string; avatar: CharacterId; steps: string[] }[] = [
     ],
   },
   {
-    title: "Pink Pairs",
+    title: "Bee Pairs",
     avatar: "pinky",
     steps: [
       "Choose Easy (8 cards, no timer) or Challenge (16 cards).",
@@ -35,14 +35,14 @@ const POINTS: { icon: IconName; title: string; text: string }[] = [
   {
     icon: "trophy",
     title: "Myth Buster Points",
-    text: "Every finished round becomes 0–1,000 points, so quizzes and Pink Pairs count equally on one leaderboard.",
+    text: "Every finished round becomes 0–1,000 points, so quizzes and Bee Pairs count equally on one leaderboard.",
   },
   { icon: "question", title: "Quizzes", text: "100 per correct answer + up to 50 speed bonus (timed). Untimed rounds get no speed bonus." },
-  { icon: "grid", title: "Pink Pairs", text: "Start at 2,000. −25 per second, −50 per incorrect flip, minimum 200. Challenge Mode × 1.5." },
+  { icon: "grid", title: "Bee Pairs", text: "Start at 2,000. −25 per second, −50 per incorrect flip, minimum 200. Challenge Mode × 1.5." },
   {
     icon: "users",
     title: "Keyboard & access",
-    text: "M = Myth, F = Fact, N = Not sure. Arrow keys + Enter in Pink Pairs. Timer can always be turned off.",
+    text: "M = Myth, F = Fact, N = Not sure. Arrow keys + Enter in Bee Pairs. Timer can always be turned off.",
   },
 ];
 
@@ -99,7 +99,7 @@ export default function HowToPlayPage() {
           Play now
         </ButtonLink>
         <ButtonLink href="/pink-pairs" size="large" variant="secondary">
-          Try Pink Pairs
+          Try Bee Pairs
         </ButtonLink>
       </div>
     </>

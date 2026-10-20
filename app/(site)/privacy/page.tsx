@@ -20,7 +20,7 @@ const SECTIONS: { icon: IconName; title: string; items: React.ReactNode[] }[] = 
   {
     icon: "x",
     title: "What we never ask for",
-    items: ["Your real name, phone number, email address or student ID", "Any medical history or personal health information"],
+    items: ["Your real name, phone number, email address or student ID", "Any disability, medical or personal health information"],
   },
   {
     icon: "bulb",
@@ -35,7 +35,7 @@ const SECTIONS: { icon: IconName; title: string; items: React.ReactNode[] }[] = 
     icon: "clock",
     title: "How long",
     items: [
-      "Game data is kept for the Breast Cancer Awareness Month campaign so the leaderboard works. [Retention period — to be confirmed by the club before launch]",
+      "Game data is kept for the SNA Support Awareness Day campaign so the leaderboard works. [Retention period — to be confirmed by the club before launch]",
       "You can delete your data yourself at any time with “Delete my data”.",
     ],
   },

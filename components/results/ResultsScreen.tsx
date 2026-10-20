@@ -116,7 +116,7 @@ export function ResultsScreen({ attemptId }: { attemptId: string }) {
   const cat = getCategory(r.category);
   const isQuiz = r.mode === "quiz";
   const playAgain = isQuiz ? `/play/${r.category}` : `/pink-pairs/${r.mode === "pairs_easy" ? "easy" : "challenge"}`;
-  const modeLabel = isQuiz ? `${cat?.title}, ${r.timed ? "timed" : "untimed"} round` : `Pink Pairs, ${r.mode === "pairs_easy" ? "Easy" : "Challenge"} Mode`;
+  const modeLabel = isQuiz ? `${cat?.title}, ${r.timed ? "timed" : "untimed"} round` : `Bee Pairs, ${r.mode === "pairs_easy" ? "Easy" : "Challenge"} Mode`;
 
   if (r.status === "rejected") {
     return (
@@ -205,8 +205,8 @@ export function ResultsScreen({ attemptId }: { attemptId: string }) {
           <ul className="grid gap-4 lg:grid-cols-3">
             {(
               [
-                ["book", "Know what is normal for you"],
-                ["search", "Noticed a change? Talk to a healthcare professional"],
+                ["book", "Everyone learns differently"],
+                ["search", "Not sure how to help? Ask first, then listen"],
                 ["heart", CLINIC_LINE],
               ] as [IconName, string][]
             ).map(([icon, text]) => (

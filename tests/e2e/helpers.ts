@@ -8,7 +8,7 @@ export const nick = (p = "E2E") => `${p}${Math.floor(Math.random() * 1e6)}`.slic
 export async function createProfile(page: Page, next = "/play", name = nick()) {
   await page.goto(`/start?next=${encodeURIComponent(next)}`);
   await page.fill("#nickname", name);
-  await page.getByText("Detective Rosie", { exact: true }).click();
+  await page.getByText("Detective Sage", { exact: true }).click();
   await page.getByRole("button", { name: "Start playing" }).click();
   await page.waitForURL((u) => u.pathname === next);
   return name;
@@ -31,7 +31,7 @@ export async function playQuiz(page: Page, category = "basics") {
   await expect(page.getByRole("heading", { name: "Round complete!" })).toBeVisible();
 }
 
-/** Solves Pink Pairs by brute force through the real UI. */
+/** Solves Bee Pairs by brute force through the real UI. */
 export async function playPairs(page: Page) {
   const cards = page.locator("[role=gridcell] button");
   await cards.first().waitFor();

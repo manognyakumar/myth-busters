@@ -199,7 +199,7 @@ describe("Pink Pairs", () => {
     expect(r.total_nmbp).toBe(r.nmbp);
   });
 
-  it("Challenge applies ×1.5 before normalising and awards Pink Pair Pro", async () => {
+  it("Challenge applies ×1.5 before normalising and awards Bee Pair Pro", async () => {
     const p = await newPlayer();
     const { attempt } = await solve(p, "pairs_challenge");
     await backdate("game_attempts", { id: attempt }, "started_at", 30);

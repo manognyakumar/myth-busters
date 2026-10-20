@@ -26,7 +26,7 @@ describe("quiz points", () => {
   it.each(QUIZ_CASES)("correct=%s timed=%s remaining=%i/%i → %i", (c, t, r, total, e) => expect(quizPoints(c, t, r, total)).toBe(e));
 });
 
-describe("Pink Pairs score", () => {
+describe("Bee Pairs score", () => {
   it.each(PAIRS_CASES)("%is, %i flips, challenge=%s → %i", (s, f, ch, e) => expect(pairsScore(s, f, ch)).toBe(e));
 
   it("maximum raw scores match the spec", () => {

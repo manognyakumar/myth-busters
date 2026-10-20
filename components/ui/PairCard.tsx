@@ -21,7 +21,7 @@ export function PairCardView({
     return (
       <div className={`flex flex-col items-center justify-center gap-3 rounded-pair bg-magenta p-4 text-white ${className}`}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={asset("/figma/ribbon-outline.svg")} width={72} height={72} alt="" className="size-[72px]" />
+        <img src={asset("/figma/bee-outline.svg")} width={72} height={72} alt="" className="size-[72px]" />
         <span className="text-label-sm font-semibold">Myth Busters</span>
       </div>
     );

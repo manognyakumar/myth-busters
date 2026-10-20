@@ -12,21 +12,21 @@ export function CategoryGrid() {
       <article className="relative flex items-end overflow-hidden rounded-ui bg-blush p-5 lg:pb-0 lg:pl-10 lg:pr-6 lg:pt-10">
         <div className="flex flex-1 flex-col items-start gap-3.5 self-stretch lg:pb-10">
           <Chip tone="magenta">Good first game</Chip>
-          <h3 className="max-w-[11ch] text-[26px] font-extrabold leading-[1.05] max-lg:min-h-[92px] lg:max-w-none lg:text-[40px]">Myth or Fact? The Basics</h3>
+          <h3 className="max-w-[11ch] text-[26px] font-extrabold leading-[1.05] max-lg:min-h-[92px] lg:max-w-none lg:text-[34px]">Myth or Fact? Neurodiversity Basics</h3>
           <div className="flex flex-wrap gap-1.5">
             <Chip tone="rose">Easy</Chip>
             <Chip>10-question quiz</Chip>
           </div>
           <p className="flex-1 text-body lg:text-body-lg">
-            Detective Rosie shows you a statement. You decide: myth or fact? Then see what the evidence says.
+            Autism, ADHD and dyslexia: what’s true and what’s a stereotype?
           </p>
           <div className="hidden lg:block">
             <ButtonLink href="/play/basics" size="large">
-              Play The Basics
+              Play Basics
             </ButtonLink>
           </div>
           <ButtonLink href="/play/basics" className="w-full lg:hidden">
-            Play The Basics
+            Play Basics
           </ButtonLink>
         </div>
         <Character id="rosie" size={290} className="hidden lg:block" />
@@ -35,31 +35,31 @@ export function CategoryGrid() {
 
       <SmallCard
         id="signs"
-        title="Know the Signs"
+        title="Beyond What You See"
         character="bloom"
         difficulty="Easy–Medium"
         kind="10-question quiz"
-        text="Learn possible warning signs and why noticed changes are worth checking."
+        text="Invisible disabilities and everyday disability etiquette."
       />
       <SmallCard
         id="risk"
-        title="Risk Factor Files"
+        title="Accommodation Files"
         character="monster"
         difficulty="Medium"
         kind="10-question quiz"
-        text="Separate evidence-based risk factors from misleading claims."
+        text="What accommodations are, why they’re fair, and how support works."
       />
 
-      {/* Pink Pairs */}
+      {/* Bee Pairs */}
       <article className="relative flex items-end gap-6 overflow-hidden rounded-ui bg-magenta p-5 text-white lg:col-span-2 lg:pb-0 lg:pl-10 lg:pr-6 lg:pt-10">
         <div className="flex w-full flex-col items-start gap-3.5 self-stretch lg:w-[420px] lg:shrink-0 lg:pb-10">
-          <h3 className="max-w-[8ch] text-[26px] font-extrabold leading-[1.05] max-lg:min-h-[92px] lg:max-w-none lg:text-[40px]">Pink Pairs</h3>
+          <h3 className="max-w-[8ch] text-[26px] font-extrabold leading-[1.05] max-lg:min-h-[92px] lg:max-w-none lg:text-[40px]">Bee Pairs</h3>
           <div className="flex flex-wrap gap-1.5">
             <span className="rounded-tag bg-blush px-2.5 py-1 text-label-sm font-semibold text-ink">Easy or Challenge</span>
             <span className="rounded-tag bg-white px-2.5 py-1 text-label-sm font-semibold text-ink">Memory game, untimed in Easy</span>
           </div>
           <p className="flex-1 text-body lg:text-body-lg">
-            Flip cards to match a myth with its correction, or a theme with an action. A calm game for every age.
+            Match a myth to the truth, or a value to a kind action. A calm game for every age.
           </p>
           <div className="flex w-full flex-col gap-2.5 sm:flex-row lg:w-auto">
             <ButtonLink href="/pink-pairs/easy" variant="secondary">
@@ -71,9 +71,9 @@ export function CategoryGrid() {
           </div>
         </div>
         <div className="relative hidden h-full min-w-0 flex-1 lg:block" aria-hidden>
-          <PairCardView state="face" kind="Theme" text="LEARN" className="absolute left-0 top-[86px] h-[227px] w-[192px] -rotate-6" />
-          <PairCardView state="matched" text="Breast cancer only happens to women." className="absolute left-[169px] top-[52px] h-[214px] w-[175px] rotate-3" />
-          <PairCardView state="matched" text="Men can develop breast cancer too." className="absolute left-[352px] top-[55px] h-[222px] w-[185px] rotate-6" />
+          <PairCardView state="face" kind="Theme" text="BE KIND" className="absolute left-0 top-[86px] h-[227px] w-[192px] -rotate-6" />
+          <PairCardView state="matched" text="Accommodations are an unfair advantage." className="absolute left-[169px] top-[52px] h-[214px] w-[175px] rotate-3" />
+          <PairCardView state="matched" text="They remove barriers so everyone is tested on the same skills." className="absolute left-[352px] top-[55px] h-[222px] w-[185px] rotate-6" />
           <Character id="pinky" size={140} className="absolute left-[250px] top-[260px]" />
         </div>
         <Character id="pinky" size={88} className="absolute right-3 top-3 lg:hidden" />
@@ -87,7 +87,7 @@ export function CategoryGrid() {
           <Chip tone="rose">Challenging</Chip>
           <span className="rounded-tag bg-lavender px-2.5 py-1 text-label-sm font-semibold text-ink">15-question mixed quiz</span>
         </div>
-        <p className="flex-1 text-body text-blush">The final challenge across every topic, from warning signs to screening.</p>
+        <p className="flex-1 text-body text-blush">15 mixed questions from every category.</p>
         <ButtonLink href="/play/ultimate" className="w-full">
           Play
         </ButtonLink>

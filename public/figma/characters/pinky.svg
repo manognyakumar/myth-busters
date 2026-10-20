@@ -1,16 +1,24 @@
 <svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs><clipPath id="buzz-body"><ellipse cx="100" cy="118" rx="58" ry="64"/></clipPath></defs>
 <g id="art">
-<path id="Vector" d="M44 94L24 78" stroke-width="6" stroke-linecap="round" stroke="#BE185D"/>
-<path id="Vector_2" d="M20 83C24.9706 83 29 78.9706 29 74C29 69.0294 24.9706 65 20 65C15.0294 65 11 69.0294 11 74C11 78.9706 15.0294 83 20 83Z" fill="#EC4899"/>
-<path id="Vector_3" d="M156 94L176 70" stroke-width="6" stroke-linecap="round" stroke="#BE185D"/>
-<path id="Vector_4" d="M180 74C184.971 74 189 69.9706 189 65C189 60.0294 184.971 56 180 56C175.029 56 171 60.0294 171 65C171 69.9706 175.029 74 180 74Z" fill="#EC4899"/>
-<path id="Vector_5" d="M100 18C52 18 40 76 76 112L44 182L78 192L100 142L122 192L156 182L124 112C160 76 148 18 100 18ZM100 46C80 46 76 72 90 94L100 106L110 94C124 72 120 46 100 46Z" fill-rule="evenodd" clip-rule="evenodd" fill="#EC4899"/>
-<path id="Vector_6" d="M88 130C91.866 130 95 126.418 95 122C95 117.582 91.866 114 88 114C84.134 114 81 117.582 81 122C81 126.418 84.134 130 88 130Z" fill="white"/>
-<path id="Vector_7" d="M89 128C91.2091 128 93 126.209 93 124C93 121.791 91.2091 120 89 120C86.7909 120 85 121.791 85 124C85 126.209 86.7909 128 89 128Z" fill="#292235"/>
-<path id="Vector_8" d="M112 130C115.866 130 119 126.418 119 122C119 117.582 115.866 114 112 114C108.134 114 105 117.582 105 122C105 126.418 108.134 130 112 130Z" fill="white"/>
-<path id="Vector_9" d="M113 128C115.209 128 117 126.209 117 124C117 121.791 115.209 120 113 120C110.791 120 109 121.791 109 124C109 126.209 110.791 128 113 128Z" fill="#292235"/>
-<path id="Vector_10" d="M92 136C97.3333 140.667 102.667 140.667 108 136" stroke-width="3" stroke-linecap="round" stroke="#30152F"/>
-<path id="Vector_11" d="M78 138C80.2091 138 82 136.209 82 134C82 131.791 80.2091 130 78 130C75.7909 130 74 131.791 74 134C74 136.209 75.7909 138 78 138Z" fill="#FCE7F3"/>
-<path id="Vector_12" d="M122 138C124.209 138 126 136.209 126 134C126 131.791 124.209 130 122 130C119.791 130 118 131.791 118 134C118 136.209 119.791 138 122 138Z" fill="#FCE7F3"/>
+<path id="antenna-l" d="M84 60C80 44 72 34 62 30" stroke-width="5" stroke-linecap="round" stroke="#1F2A24"/>
+<circle cx="60" cy="29" r="7" fill="#1F2A24"/>
+<path id="antenna-r" d="M116 60C120 44 128 34 138 30" stroke-width="5" stroke-linecap="round" stroke="#1F2A24"/>
+<circle cx="140" cy="29" r="7" fill="#1F2A24"/>
+<ellipse id="wing-l" cx="54" cy="74" rx="30" ry="22" transform="rotate(-28 54 74)" fill="white" fill-opacity="0.9" stroke="#A9CFE3" stroke-width="4"/>
+<ellipse id="wing-r" cx="146" cy="74" rx="30" ry="22" transform="rotate(28 146 74)" fill="white" fill-opacity="0.9" stroke="#A9CFE3" stroke-width="4"/>
+<path id="stinger" d="M92 178L100 194L108 178Z" fill="#1F2A24"/>
+<ellipse id="body" cx="100" cy="118" rx="58" ry="64" fill="#F2C14E"/>
+<g clip-path="url(#buzz-body)">
+<rect x="36" y="136" width="128" height="14" fill="#1F2A24"/>
+<rect x="36" y="162" width="128" height="14" fill="#1F2A24"/>
+</g>
+<circle cx="83" cy="104" r="9" fill="white"/>
+<circle cx="84" cy="106" r="5" fill="#1F2A24"/>
+<circle cx="117" cy="104" r="9" fill="white"/>
+<circle cx="118" cy="106" r="5" fill="#1F2A24"/>
+<path d="M90 120C96.6667 125 103.333 125 110 120" stroke-width="3.5" stroke-linecap="round" stroke="#1F2A24"/>
+<circle cx="70" cy="120" r="6" fill="#E8A27C" fill-opacity="0.7"/>
+<circle cx="130" cy="120" r="6" fill="#E8A27C" fill-opacity="0.7"/>
 </g>
 </svg>

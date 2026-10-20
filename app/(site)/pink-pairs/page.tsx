@@ -3,7 +3,7 @@ import { ButtonLink } from "@/components/ui/Button";
 import { Character } from "@/components/characters/Character";
 import { Icon, type IconName } from "@/components/ui/Icon";
 
-export const metadata: Metadata = { title: "Pink Pairs" };
+export const metadata: Metadata = { title: "Bee Pairs" };
 
 const STEPS: [IconName, string][] = [
   ["grid", "Flip two cards"],
@@ -12,8 +12,8 @@ const STEPS: [IconName, string][] = [
   ["speaker", "Listen: read any pair aloud"],
 ];
 
-/** Figma 07 Pink Pairs — choose a mode (8:1101). */
-export default function PinkPairsPage() {
+/** Figma 07 Bee Pairs — choose a mode (8:1101). */
+export default function BeePairsPage() {
   return (
     <>
       <section className="bg-blush">
@@ -24,7 +24,7 @@ export default function PinkPairsPage() {
             <Character id="pinky" size={220} motion="wave" className="hidden lg:block" />
           </div>
           <div className="flex flex-1 flex-col gap-3.5">
-            <h1 className="font-display text-[40px] leading-none lg:text-title">Pink Pairs</h1>
+            <h1 className="font-display text-[40px] leading-none lg:text-title">Bee Pairs</h1>
             <p className="text-body lg:text-body-lg">
               A calm memory game for everyone. Flip two cards at a time to match a myth with its correction, or an awareness theme with an
               action. Every match explains why.

@@ -8,42 +8,42 @@ import { THEMES } from "@/lib/site";
 export const metadata: Metadata = { title: "Beyond the game" };
 
 type Link = { label: string; href: string };
-const WHO: Link = { label: "World Health Organization", href: "https://www.who.int/news-room/fact-sheets/detail/breast-cancer" };
-const WHO_GBCI: Link = { label: "WHO Global Breast Cancer Initiative", href: "https://www.who.int/initiatives/global-breast-cancer-initiative" };
-const NCI: Link = { label: "National Cancer Institute", href: "https://www.cancer.gov/types/breast" };
-const NCI_RISK: Link = { label: "NCI: Breast cancer prevention", href: "https://www.cancer.gov/types/breast/patient/breast-prevention-pdq" };
-const NCI_SCREEN: Link = { label: "NCI: Mammograms", href: "https://www.cancer.gov/types/breast/mammograms-fact-sheet" };
-const NHS_SIGNS: Link = { label: "NHS: Symptoms", href: "https://www.nhs.uk/conditions/breast-cancer-in-women/symptoms-of-breast-cancer-in-women/" };
-const DHA: Link = { label: "Dubai Health Authority", href: "https://www.dha.gov.ae/en" };
+const CDC: Link = { label: "CDC: Autism", href: "https://www.cdc.gov/autism/" };
+const NIMH: Link = { label: "NIMH: ADHD", href: "https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd" };
+const NHS: Link = { label: "NHS: ADHD", href: "https://www.nhs.uk/conditions/attention-deficit-hyperactivity-disorder-adhd/" };
+const IDA: Link = { label: "International Dyslexia Association", href: "https://dyslexiaida.org/dyslexia-basics/" };
+const CRPD: Link = { label: "UN CRPD", href: "https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html" };
+const WAI: Link = { label: "W3C WAI: Captions", href: "https://www.w3.org/WAI/media/av/captions/" };
+const UAE: Link = { label: "UAE: People of Determination", href: "https://u.ae/en/information-and-services/social-affairs/people-of-determination" };
 
 const CARDS: { icon: IconName; lead: string; body: string; links: Link[] }[] = [
   {
-    icon: "book",
-    lead: THEMES[0].text,
-    body: "Breast cancer can affect anyone, including men. Learning the facts helps you recognise common myths and misleading claims. Factors such as age, family history and inherited gene changes can affect risk — but having no known risk factors does not mean no risk.",
-    links: [WHO, NCI, NCI_RISK],
-  },
-  {
-    icon: "search",
-    lead: THEMES[1].text,
-    body: "Possible changes include a new lump or swelling in the breast, chest or armpit, a change in breast shape or size, or skin or nipple changes. Screening depends on your age, risk factors and medical history — a professional can advise what is right for you.",
-    links: [NHS_SIGNS, NCI_SCREEN, DHA],
-  },
-  {
     icon: "heart",
-    lead: THEMES[2].text,
-    body: "If someone you know is affected by breast cancer, listening without judgement and encouraging professional support can make a real difference.",
-    links: [WHO_GBCI],
+    lead: THEMES[0].text,
+    body: "Patience, a friendly word and a little flexibility go a long way. Treat people as people first, not as a diagnosis or a label.",
+    links: [UAE, CRPD],
+  },
+  {
+    icon: "book",
+    lead: THEMES[1].text,
+    body: "Autism, ADHD and dyslexia are differences in how the brain works, not a lack of intelligence or effort. Many disabilities, such as chronic pain or hearing loss, can’t be seen.",
+    links: [CDC, NIMH, NHS, IDA],
   },
   {
     icon: "check",
+    lead: THEMES[2].text,
+    body: "Accommodations such as extra time, captions or a quiet room keep the standard the same and remove the barrier. Captioned videos and accessible slides help everyone.",
+    links: [CRPD, WAI],
+  },
+  {
+    icon: "search",
     lead: THEMES[3].text,
-    body: "Regular check-ups give you a chance to ask questions. Your University Clinic is a good first step.",
-    links: [DHA],
+    body: "Not everyone wants help, and the right help depends on the person. Ask first, listen, and respect the answer. Need an accommodation yourself? The Student Affairs Office at RIT Dubai can help.",
+    links: [UAE],
   },
 ];
 
-/** Figma 14 Beyond the game (10:3254). No body images or self-exam steps by design. */
+/** Figma 14 Beyond the game (10:3254). */
 export default function BeyondPage() {
   return (
     <>
@@ -52,8 +52,8 @@ export default function BeyondPage() {
           <div className="flex flex-1 flex-col gap-3.5">
             <h1 className="font-display text-[40px] leading-none lg:text-title">Beyond the game</h1>
             <p className="text-body lg:text-body-lg">
-              Trusted information to take with you, organised around this year’s four awareness themes. Nothing here replaces advice from a
-              healthcare professional.
+              Trusted information to take with you, organised around this year’s four awareness themes. Every person’s experience is
+              different.
             </p>
           </div>
           <Character id="bloom" size={200} className="hidden sm:block" />
@@ -95,10 +95,9 @@ export default function BeyondPage() {
         <section className="flex items-center gap-5 rounded-ui bg-plum p-7 text-white">
           <Icon name="heart" size={32} className="hidden text-rose sm:inline-block" />
           <div className="flex flex-col gap-1.5">
-            <p className="text-h3 font-extrabold text-rose lg:text-h2">Have questions? Visit the University Clinic.</p>
+            <p className="text-h3 font-extrabold text-rose lg:text-h2">Need support or an accommodation? Contact the Student Affairs Office at RIT Dubai.</p>
             <p className="text-body text-blush">
-              An awareness prompt, not a substitute for medical care. If you notice a new or concerning change, contact a qualified healthcare
-              professional.
+              Student Affairs can talk you through accommodations, support services and who to contact, in confidence.
             </p>
           </div>
         </section>

@@ -5,7 +5,7 @@ import { describe, expect, it } from "vitest";
 /** Spec §5.1: Google brand colours and their pastels must never appear. */
 const FORBIDDEN = ["4285F4", "34A853", "F9AB00", "EA4335", "57CAFF", "5CDB6D", "FFD427", "FF7DAF", "C3ECF6", "CCF6C5", "FFE7A5", "F8D8D8"];
 const FORBIDDEN_FONTS = [/Google Sans/i, /\bInter\b/, /\bPoppins\b/i];
-const ALLOWED = ["fce7f3", "ec4899", "be185d", "9d174d", "ede9fe", "c4b5fd", "30152f", "4a1d45", "292235", "ffffff", "fff", "d7d2cb", "e9b949", "c0c4cc", "c98b5a", "15803d", "f76902"];
+const ALLOWED = ["eef6e4", "f2c14e", "2f6b3a", "24552e", "e3f0f7", "a9cfe3", "16302a", "22463b", "1f2a24", "ffffff", "fff", "d7d2cb", "e9b949", "c0c4cc", "c98b5a", "15803d", "f76902"];
 
 function walk(dir: string, exts: string[], out: string[] = []) {
   if (!existsSync(dir)) return out;
