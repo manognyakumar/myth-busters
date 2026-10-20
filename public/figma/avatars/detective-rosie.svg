@@ -1,19 +1,19 @@
-<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="100" height="100" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="art">
-<path id="Vector" d="M25 99C25 75 35 66 50 66C65 66 75 75 75 99H25Z" fill="#BE185D"/>
-<path id="Vector_2" d="M50 66L44 80L50 99L56 80L50 66Z" fill="#9D174D"/>
-<path id="Vector_3" d="M67.5 75.44C63.66 75.44 62.7 80.08 65.58 82.96L63.02 88.56L65.74 89.36L67.5 85.36L69.26 89.36L71.98 88.56L69.42 82.96C72.3 80.08 71.34 75.44 67.5 75.44ZM67.5 77.68C65.9 77.68 65.58 79.76 66.7 81.52L67.5 82.48L68.3 81.52C69.42 79.76 69.1 77.68 67.5 77.68Z" fill-rule="evenodd" clip-rule="evenodd" fill="white"/>
-<path id="Vector_4" d="M50 66C61.0457 66 70 57.0457 70 46C70 34.9543 61.0457 26 50 26C38.9543 26 30 34.9543 30 46C30 57.0457 38.9543 66 50 66Z" fill="#FCE7F3"/>
-<path id="Vector_5" d="M43 51C44.3807 51 45.5 49.6569 45.5 48C45.5 46.3431 44.3807 45 43 45C41.6193 45 40.5 46.3431 40.5 48C40.5 49.6569 41.6193 51 43 51Z" fill="#292235"/>
-<path id="Vector_6" d="M57 51C58.3807 51 59.5 49.6569 59.5 48C59.5 46.3431 58.3807 45 57 45C55.6193 45 54.5 46.3431 54.5 48C54.5 49.6569 55.6193 51 57 51Z" fill="#292235"/>
-<path id="Vector_7" d="M45 56C48.3333 58.3333 51.6667 58.3333 55 56" stroke-width="1.5" stroke-linecap="round" stroke="#30152F"/>
-<path id="Vector_8" d="M37.5 56.5C38.8807 56.5 40 55.3807 40 54C40 52.6193 38.8807 51.5 37.5 51.5C36.1193 51.5 35 52.6193 35 54C35 55.3807 36.1193 56.5 37.5 56.5Z" fill="#EC4899" fill-opacity="0.5"/>
-<path id="Vector_9" d="M62.5 56.5C63.8807 56.5 65 55.3807 65 54C65 52.6193 63.8807 51.5 62.5 51.5C61.1193 51.5 60 52.6193 60 54C60 55.3807 61.1193 56.5 62.5 56.5Z" fill="#EC4899" fill-opacity="0.5"/>
-<path id="Vector_10" d="M28 39C29 22 39 15 50 15C61 15 71 22 72 39H28Z" fill="#9D174D"/>
-<path id="Vector_11" d="M71.5 32H28.5V36H71.5V32Z" fill="#EC4899"/>
-<path id="Vector_12" d="M19 40C35 35 65 35 81 40L79 44C63 40 37 40 21 44L19 40Z" fill="#BE185D"/>
-<path id="Vector_13" d="M81 76L92 89" stroke-width="4" stroke-linecap="round" stroke="#30152F"/>
-<path id="Vector_14" d="M74 78C79.5228 78 84 73.5228 84 68C84 62.4772 79.5228 58 74 58C68.4772 58 64 62.4772 64 68C64 73.5228 68.4772 78 74 78Z" fill="#EDE9FE" fill-opacity="0.8" stroke-width="3" stroke="#30152F"/>
-<path id="Vector_15" d="M84 84C86.2091 84 88 82.2091 88 80C88 77.7909 86.2091 76 84 76C81.7909 76 80 77.7909 80 80C80 82.2091 81.7909 84 84 84Z" fill="#FCE7F3"/>
+<path id="Vector" d="M50 198C50 150 70 132 100 132C130 132 150 150 150 198H50Z" fill="#2F6B3A"/>
+<path id="Vector_2" d="M100 132L88 160L100 198L112 160L100 132Z" fill="#24552E"/>
+<g id="bee-badge"><ellipse cx="130.05" cy="159.4" rx="4.95" ry="3.5200000000000005" fill="white" fill-opacity="0.95"/><ellipse cx="139.95" cy="159.4" rx="4.95" ry="3.5200000000000005" fill="white" fill-opacity="0.95"/><ellipse cx="135" cy="166" rx="7.700000000000001" ry="8.8" fill="#F2C14E"/><path d="M127.74 164.35H142.26M128.84 169.85H141.16" stroke="#1F2A24" stroke-width="2.20"/></g>
+<path id="Vector_4" d="M100 132C122.091 132 140 114.091 140 92C140 69.9086 122.091 52 100 52C77.9086 52 60 69.9086 60 92C60 114.091 77.9086 132 100 132Z" fill="#F6DFC6"/>
+<path id="Vector_5" d="M86 102C88.7614 102 91 99.3137 91 96C91 92.6863 88.7614 90 86 90C83.2386 90 81 92.6863 81 96C81 99.3137 83.2386 102 86 102Z" fill="#1F2A24"/>
+<path id="Vector_6" d="M114 102C116.761 102 119 99.3137 119 96C119 92.6863 116.761 90 114 90C111.239 90 109 92.6863 109 96C109 99.3137 111.239 102 114 102Z" fill="#1F2A24"/>
+<path id="Vector_7" d="M90 112C96.6667 116.667 103.333 116.667 110 112" stroke-width="3" stroke-linecap="round" stroke="#16302A"/>
+<path id="Vector_8" d="M75 113C77.7614 113 80 110.761 80 108C80 105.239 77.7614 103 75 103C72.2386 103 70 105.239 70 108C70 110.761 72.2386 113 75 113Z" fill="#E8A27C" fill-opacity="0.6"/>
+<path id="Vector_9" d="M125 113C127.761 113 130 110.761 130 108C130 105.239 127.761 103 125 103C122.239 103 120 105.239 120 108C120 110.761 122.239 113 125 113Z" fill="#E8A27C" fill-opacity="0.6"/>
+<path id="Vector_10" d="M56 78C58 44 78 30 100 30C122 30 142 44 144 78H56Z" fill="#24552E"/>
+<path id="Vector_11" d="M143 64H57V72H143V64Z" fill="#F2C14E"/>
+<path id="Vector_12" d="M38 80C70 70 130 70 162 80L158 88C126 80 74 80 42 88L38 80Z" fill="#2F6B3A"/>
+<path id="Vector_13" d="M162 152L184 178" stroke-width="8" stroke-linecap="round" stroke="#16302A"/>
+<path id="Vector_14" d="M148 156C159.046 156 168 147.046 168 136C168 124.954 159.046 116 148 116C136.954 116 128 124.954 128 136C128 147.046 136.954 156 148 156Z" fill="#E3F0F7" fill-opacity="0.8" stroke-width="6" stroke="#16302A"/>
+<path id="Vector_15" d="M168 168C172.418 168 176 164.418 176 160C176 155.582 172.418 152 168 152C163.582 152 160 155.582 160 160C160 164.418 163.582 168 168 168Z" fill="#F6DFC6"/>
 </g>
 </svg>

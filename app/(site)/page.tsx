@@ -136,7 +136,7 @@ export default function HomePage() {
           <div className="grid gap-6 lg:grid-cols-4 lg:gap-8">
             {THEMES.map((t) => (
               <div key={t.key} className="flex flex-col gap-3 border-t-[3px] border-white pt-4 lg:pt-5">
-                <h3 className="text-h3 font-extrabold lg:text-h2">{t.key}</h3>
+                <h3 className="text-h3 font-extrabold lg:text-[28px]">{t.key}</h3>
                 <p className="text-body lg:text-body-lg">{t.text}</p>
               </div>
             ))}

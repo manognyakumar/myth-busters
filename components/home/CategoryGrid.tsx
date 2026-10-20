@@ -12,21 +12,21 @@ export function CategoryGrid() {
       <article className="relative flex items-end overflow-hidden rounded-ui bg-blush p-5 lg:pb-0 lg:pl-10 lg:pr-6 lg:pt-10">
         <div className="flex flex-1 flex-col items-start gap-3.5 self-stretch lg:pb-10">
           <Chip tone="magenta">Good first game</Chip>
-          <h3 className="max-w-[11ch] text-[26px] font-extrabold leading-[1.05] max-lg:min-h-[92px] lg:max-w-none lg:text-[40px]">Myth or Fact? Neurodiversity Basics</h3>
+          <h3 className="max-w-[11ch] text-[26px] font-extrabold leading-[1.05] max-lg:min-h-[92px] lg:max-w-none lg:text-[34px]">Myth or Fact? Neurodiversity Basics</h3>
           <div className="flex flex-wrap gap-1.5">
             <Chip tone="rose">Easy</Chip>
             <Chip>10-question quiz</Chip>
           </div>
           <p className="flex-1 text-body lg:text-body-lg">
-            Autism, ADHD and dyslexia: what’s true and what’s a stereotype. Detective Sage shows you a statement. You decide: myth or fact?
+            Autism, ADHD and dyslexia: what’s true and what’s a stereotype?
           </p>
           <div className="hidden lg:block">
             <ButtonLink href="/play/basics" size="large">
-              Play The Basics
+              Play Basics
             </ButtonLink>
           </div>
           <ButtonLink href="/play/basics" className="w-full lg:hidden">
-            Play The Basics
+            Play Basics
           </ButtonLink>
         </div>
         <Character id="rosie" size={290} className="hidden lg:block" />
