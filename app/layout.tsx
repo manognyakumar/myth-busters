@@ -11,24 +11,24 @@ const archivo = Archivo({
 });
 
 const description =
-  "Spot the Myth. Discover the Truth. Make a Difference. A breast cancer awareness game by " + CLUB_NAME + ".";
+  "Be Kind. Be Understanding. Be the Difference. An SNA Support Awareness Day game by " + CLUB_NAME + ".";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `Myth Busters: Breast Cancer Edition — ${CLUB_NAME}`,
+    default: `Myth Busters: SNA Edition — ${CLUB_NAME}`,
     template: "%s · Myth Busters · GDGOC RIT Dubai",
   },
   description,
   openGraph: {
-    title: "Myth Busters: Breast Cancer Awareness Edition",
+    title: "Myth Busters: SNA Edition",
     description,
     siteName: `Myth Busters — ${CLUB_NAME}`,
     type: "website",
   },
 };
 
-export const viewport: Viewport = { themeColor: "#be185d", width: "device-width", initialScale: 1 };
+export const viewport: Viewport = { themeColor: "#2f6b3a", width: "device-width", initialScale: 1 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (

@@ -136,7 +136,7 @@ export const ERROR_TEXT: Record<string, string> = {
   nickname_format: "Use 3–16 letters, numbers or spaces.",
   nickname_unkind: "Please choose a kinder nickname.",
   not_enough_questions: "This round isn’t ready yet. Reviewed questions are still being added.",
-  not_enough_pairs: "Pink Pairs isn’t ready yet. Reviewed cards are still being added.",
+  not_enough_pairs: "Bee Pairs isn’t ready yet. Reviewed cards are still being added.",
   invalid_code: "That recovery code didn’t match. Check it and try again.",
   device_has_progress: "This device already has its own scores. Use “New player” first, then enter your code.",
 };

@@ -8,7 +8,7 @@ export function QrCode({ value, size = 120, label }: { value: string; size?: num
   const [svg, setSvg] = useState<string | null>(null);
   useEffect(() => {
     let alive = true;
-    QRCode.toString(value, { type: "svg", margin: 1, color: { dark: "#292235", light: "#ffffff" } })
+    QRCode.toString(value, { type: "svg", margin: 1, color: { dark: "#1f2a24", light: "#ffffff" } })
       .then((s) => alive && setSvg(s))
       .catch(() => alive && setSvg(null));
     return () => {

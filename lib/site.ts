@@ -10,17 +10,13 @@ export const asset = (p: string) => `${BASE_PATH}${p}`;
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
 
 export const DISCLAIMER =
-  "This game provides general educational information and is not a substitute for professional medical advice, diagnosis, or treatment. If you notice a new or concerning change, contact a qualified healthcare professional.";
-export const DISCLAIMER_SHORT =
-  "This game provides general educational information and is not a substitute for professional medical advice, diagnosis, or treatment.";
-export const CLINIC_LINE = "Have questions? Visit the University Clinic.";
+  "This game is for awareness only and isn’t a diagnosis or advice. Every person’s experience is different.";
+export const DISCLAIMER_SHORT = DISCLAIMER;
+export const CLINIC_LINE = "Need support or an accommodation? Contact the Student Affairs Office at RIT Dubai.";
 
 export const THEMES = [
-  { key: "LEARN", text: "Know what is normal for you." },
-  {
-    key: "CHECK",
-    text: "A change doesn’t always mean cancer, but noticed changes are worth checking with a healthcare professional.",
-  },
-  { key: "SUPPORT", text: "You are not alone. A kind conversation can encourage someone to seek help." },
-  { key: "TAKE CARE", text: "Your health matters. Make time for regular check-ups and healthy habits." },
+  { key: "BE KIND", text: "Small acts of kindness make a big difference." },
+  { key: "BE UNDERSTANDING", text: "Many disabilities are invisible. Everyone learns differently, and that’s okay." },
+  { key: "BE THE DIFFERENCE", text: "Accommodations remove barriers. Speak up for an inclusive campus." },
+  { key: "ASK FIRST", text: "Offer help, then listen. The person knows best what they need." },
 ] as const;

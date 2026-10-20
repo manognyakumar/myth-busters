@@ -1,14 +1,16 @@
-# Myth Busters: Breast Cancer Edition
+# Myth Busters: SNA Edition
 
-*Spot the Myth. Discover the Truth. Make a Difference.*
+*Be Kind. Be Understanding. Be the Difference.*
 
-Myth Busters is a self-paced breast cancer awareness game built by **Google Developer Group on Campus - Rochester Institute of Technology of Dubai** for the RIT Dubai 2026 Breast Cancer Awareness Month event.
+Myth Busters is a self-paced awareness game built by **Google Developer Group on Campus - Rochester Institute of Technology of Dubai** for RIT Dubai's **SNA (Special Needs and Accommodations) Support Awareness Day**, 20 October 2026.
+
+> **SNA edition.** This branch (`sna-edition`) re-themes the Breast Cancer edition, which stays on `main`. Only display text, colours, character art and seed content changed. Every internal id (categories `basics/signs/risk/pairs/ultimate`, character ids, the `/pink-pairs` route, token names) is the same, so the schema and `mb_*` functions are unchanged. Other docs still describe the Breast Cancer edition.
 
 It has five categories:
-- Myth or Fact? — The Basics
-- Know the Signs
-- Risk Factor Files
-- Pink Pairs
+- Myth or Fact? Neurodiversity Basics
+- Beyond What You See
+- Accommodation Files
+- Bee Pairs
 - The Ultimate Myth Buster
 
 Every completed round adds normalised Myth Buster Points to **one global leaderboard**.

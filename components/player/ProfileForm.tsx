@@ -56,7 +56,7 @@ export function ProfileForm({ submitLabel, onSaved }: { submitLabel: string; onS
             aria-describedby="nickname-hint nickname-error"
             aria-invalid={error ? true : undefined}
             className="min-w-0 flex-1 bg-transparent text-body-lg outline-none"
-            placeholder="PinkRibbon24"
+            placeholder="BusyBee24"
           />
           {valid && <Icon name="check" size={20} className="text-success" label="Looks good" />}
         </div>

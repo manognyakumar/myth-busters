@@ -107,8 +107,8 @@ export function ProgressView() {
                 <Num label="Categories explored" value={`${data.categories_completed} / 5`} />
                 <Num label="Personal best" value={data.rounds_completed ? `${data.best_nmbp} NMBP` : "—"} />
                 <Num label="Quiz accuracy" value={data.quiz_accuracy == null ? "—" : `${Math.round(data.quiz_accuracy * 100)}%`} />
-                <Num label="Pink Pairs best, Easy" value={time(data.pairs_best?.easy)} />
-                <Num label="Pink Pairs best, Challenge" value={time(data.pairs_best?.challenge)} />
+                <Num label="Bee Pairs best, Easy" value={time(data.pairs_best?.easy)} />
+                <Num label="Bee Pairs best, Challenge" value={time(data.pairs_best?.challenge)} />
               </div>
             </section>
 

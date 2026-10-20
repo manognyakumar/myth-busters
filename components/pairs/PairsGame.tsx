@@ -219,7 +219,7 @@ export function PairsGame({ mode }: { mode: Mode }) {
         <div className="mx-auto flex max-w-[1440px] flex-col gap-6 px-4 py-6 lg:flex-row lg:gap-10 lg:px-16 lg:py-10">
           <div
             role="grid"
-            aria-label="Pink Pairs cards"
+            aria-label="Bee Pairs cards"
             aria-rowcount={cards.length / cols}
             onKeyDown={onGridKey}
             className={`grid grid-cols-2 gap-3 sm:grid-cols-4 lg:gap-4 ${mode === "easy" ? "lg:w-[880px]" : "lg:w-[720px]"} lg:shrink-0`}
@@ -326,7 +326,7 @@ function Stat({ label, value }: { label: string; value: string }) {
   );
 }
 
-/** Figma 09 Pink Pairs — match explanation (9:1202). */
+/** Figma 09 Bee Pairs — match explanation (9:1202). */
 function MatchDialog({ pair, last, onClose }: { pair: Pair; last: boolean; onClose: () => void }) {
   const closeRef = useRef<HTMLButtonElement>(null);
   useEffect(() => {
@@ -376,7 +376,7 @@ function MatchDialog({ pair, last, onClose }: { pair: Pair; last: boolean; onClo
   );
 }
 
-/** Figma 10 Pink Pairs — completion & fact sheet (9:1310). */
+/** Figma 10 Bee Pairs — completion & fact sheet (9:1310). */
 function Completion({ result: r, pairs, mode, onReplay }: { result: Result; pairs: Pair[]; mode: Mode; onReplay: () => void }) {
   const points = useCountUp(r.nmbp ?? 0);
   const modeLabel = mode === "easy" ? "Easy Mode" : "Challenge Mode";

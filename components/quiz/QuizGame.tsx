@@ -424,7 +424,7 @@ function FeedbackView({
         </div>
         {rest && <p className="text-body-lg">{rest}</p>}
         {f.explanation_long && <p className="text-body">{f.explanation_long}</p>}
-        <p className="text-body">If you notice a new or concerning change, talk to a healthcare professional.</p>
+        <p className="text-body">Every person’s experience is different. When in doubt, ask and listen.</p>
         <a
           href={f.source_url}
           target="_blank"

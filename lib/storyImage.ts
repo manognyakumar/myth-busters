@@ -17,21 +17,21 @@ export async function downloadStoryImage(pairs: StoryPair[], modeLabel: string) 
   const font = getComputedStyle(document.body).fontFamily;
 
   const grad = g.createLinearGradient(0, 0, 0, H);
-  grad.addColorStop(0, "#30152f");
-  grad.addColorStop(1, "#4a1d45");
+  grad.addColorStop(0, "#16302a");
+  grad.addColorStop(1, "#22463b");
   g.fillStyle = grad;
   g.fillRect(0, 0, W, H);
 
-  g.fillStyle = "#ec4899";
+  g.fillStyle = "#f2c14e";
   g.font = `900 120px ${font}`;
   g.fillText("MYTH", 80, 230);
   g.fillText("BUSTERS", 80, 350);
-  g.fillStyle = "#fce7f3";
+  g.fillStyle = "#eef6e4";
   g.font = `800 44px ${font}`;
-  g.fillText("Breast Cancer Awareness Edition", 80, 430);
-  g.fillStyle = "#c4b5fd";
+  g.fillText("SNA Edition", 80, 430);
+  g.fillStyle = "#a9cfe3";
   g.font = `600 34px ${font}`;
-  g.fillText(`My Pink Pairs fact sheet · ${modeLabel}`, 80, 500);
+  g.fillText(`My Bee Pairs fact sheet · ${modeLabel}`, 80, 500);
 
   let y = 600;
   const maxY = H - 300;
@@ -49,7 +49,7 @@ export async function downloadStoryImage(pairs: StoryPair[], modeLabel: string) 
     g.fill();
     let ly = y;
     lines.forEach((l, i) => {
-      g.fillStyle = i < lines.length / 2 ? "#ffffff" : "#fce7f3";
+      g.fillStyle = i < lines.length / 2 ? "#ffffff" : "#eef6e4";
       g.font = l.font;
       g.fillText(l.text, 110, ly);
       ly += 46;
@@ -57,7 +57,7 @@ export async function downloadStoryImage(pairs: StoryPair[], modeLabel: string) 
     y += h + 30;
   }
 
-  g.fillStyle = "#be185d";
+  g.fillStyle = "#2f6b3a";
   g.fillRect(0, H - 240, W, 240);
   g.fillStyle = "#ffffff";
   g.font = `800 38px ${font}`;

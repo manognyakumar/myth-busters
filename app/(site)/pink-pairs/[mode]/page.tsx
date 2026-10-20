@@ -6,7 +6,7 @@ export function generateStaticParams() {
   return [{ mode: "easy" }, { mode: "challenge" }];
 }
 
-export const metadata: Metadata = { title: "Pink Pairs" };
+export const metadata: Metadata = { title: "Bee Pairs" };
 
 export default async function PairsPage({ params }: { params: Promise<{ mode: string }> }) {
   const { mode } = await params;

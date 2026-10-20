@@ -9,7 +9,7 @@ test.describe("visitor journeys", () => {
     await expect(page).toHaveTitle(new RegExp(CLUB));
     for (const [name, path] of [
       ["PLAY NOW", "/play"],
-      ["PINK PAIRS", "/pink-pairs"],
+      ["BEE PAIRS", "/pink-pairs"],
       ["GLOBAL LEADERBOARD", "/leaderboard"],
       ["MY PROGRESS", "/progress"],
       ["HOW TO PLAY", "/how-to-play"],
@@ -56,7 +56,7 @@ test.describe("visitor journeys", () => {
     }
   });
 
-  test("Pink Pairs Easy: 8 cards, flips lock during turn-back, explanations and fact sheet", async ({ page }) => {
+  test("Bee Pairs Easy: 8 cards, flips lock during turn-back, explanations and fact sheet", async ({ page }) => {
     await createProfile(page, "/pink-pairs/easy");
     const cards = page.locator("[role=gridcell] button");
     await expect(cards).toHaveCount(8);
@@ -88,7 +88,7 @@ test.describe("visitor journeys", () => {
     await expect(page.getByRole("heading", { name: "Round complete!" })).toBeVisible();
   });
 
-  test("Pink Pairs Challenge shows 16 cards and elapsed time", async ({ page }) => {
+  test("Bee Pairs Challenge shows 16 cards and elapsed time", async ({ page }) => {
     await createProfile(page, "/pink-pairs/challenge");
     await expect(page.locator("[role=gridcell] button")).toHaveCount(16);
     await expect(page.getByText("Elapsed time")).toBeVisible();

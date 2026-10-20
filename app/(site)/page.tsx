@@ -10,7 +10,7 @@ import { CLUB_FORM, CLUB_NAME, THEMES } from "@/lib/site";
 export default function HomePage() {
   return (
     <>
-      <h1 className="sr-only">Myth Busters: Breast Cancer Awareness Edition, by {CLUB_NAME}</h1>
+      <h1 className="sr-only">Myth Busters: SNA Edition, by {CLUB_NAME}</h1>
 
       {/* Hero */}
       <section className="overflow-hidden bg-blush">
@@ -21,18 +21,18 @@ export default function HomePage() {
               <br />
               BUSTERS
             </p>
-            <p className="text-[28px] font-extrabold leading-[1.1] text-magenta lg:text-h2">Breast Cancer Awareness Edition</p>
-            <p className="text-[20px] font-semibold leading-[1.3] lg:text-[24px]">Spot the Myth. Discover the Truth. Make a Difference.</p>
+            <p className="text-[28px] font-extrabold leading-[1.1] text-magenta lg:text-h2">SNA Edition</p>
+            <p className="text-[20px] font-semibold leading-[1.3] lg:text-[24px]">Be Kind. Be Understanding. Be the Difference.</p>
             <p className="max-w-[600px] text-body lg:text-body-lg">
-              Think you know the facts about breast cancer? Investigate common myths, discover the truth, match important
-              information, and learn how awareness can make a difference.
+              Think you know the facts about neurodiversity, invisible disabilities and accommodations? Bust common myths,
+              discover the truth, and learn how a little understanding can make a big difference.
             </p>
             <div className="flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
               <ButtonLink href="/play" size="large">
                 PLAY NOW
               </ButtonLink>
               <ButtonLink href="/pink-pairs" size="large" variant="secondary">
-                PINK PAIRS
+                BEE PAIRS
               </ButtonLink>
             </div>
             <div className="hidden flex-wrap gap-2 sm:flex">
@@ -44,7 +44,7 @@ export default function HomePage() {
           <div className="relative h-[360px] min-w-0 lg:h-[640px] lg:flex-1" aria-hidden>
             <div className="absolute left-0 top-[44px] flex w-[272px] flex-col items-start gap-3 rounded-answer bg-white p-[22px] lg:left-[60px] lg:top-[150px] lg:w-[470px] lg:gap-[18px] lg:p-9">
               <div className="flex flex-col gap-1">
-                {["Breast cancer only", "happens to women."].map((line) => (
+                {["People with dyslexia", "are less intelligent."].map((line) => (
                   <span key={line} className="relative inline-block">
                     <span className="text-[20px] font-black leading-[1.1] tracking-[-0.5px] text-ink opacity-85 lg:text-[30px]">
                       {line}
@@ -57,13 +57,13 @@ export default function HomePage() {
                 <Icon name="x" size={16} />
                 MYTH
               </span>
-              <p className="text-[24px] font-extrabold leading-[1.15] lg:text-[30px]">Men can develop breast cancer too.</p>
+              <p className="text-[24px] font-extrabold leading-[1.15] lg:text-[30px]">Dyslexia isn’t about intelligence.</p>
               <p className="hidden text-body lg:block">
-                Breast cancer is much more common in women, but men can also develop it.
+                Dyslexia is a learning difference in how the brain processes language. It has nothing to do with how smart someone is.
               </p>
             </div>
             <div className="absolute left-[96px] top-[72px] hidden rounded-ui bg-white px-4 py-3 text-label font-semibold lg:block">
-              Let’s investigate this claim!
+              Let’s look past the label.
             </div>
             <div className="absolute -right-1 top-0 lg:left-[372px] lg:right-auto lg:top-[10px]">
               <Character id="rosie" size={124} className="lg:hidden" />
@@ -129,9 +129,9 @@ export default function HomePage() {
       <section aria-labelledby="matter-heading" className="bg-magenta text-white">
         <div className="mx-auto flex max-w-[1440px] flex-col gap-14 px-4 py-10 lg:px-16 lg:py-24">
           <h2 id="matter-heading" className="font-display text-[44px] leading-[0.96] lg:text-[80px]">
-            You matter.
+            Everyone learns differently.
             <br />
-            Your health matters.
+            Everyone belongs.
           </h2>
           <div className="grid gap-6 lg:grid-cols-4 lg:gap-8">
             {THEMES.map((t) => (
@@ -144,12 +144,12 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Clinic + disclaimer */}
+      {/* Support + disclaimer */}
       <section className="mx-auto flex max-w-[1440px] flex-col gap-6 px-4 py-8 lg:flex-row lg:items-center lg:gap-10 lg:px-16 lg:py-14">
         <p className="text-[28px] font-extrabold leading-[1.1] text-magenta lg:text-h2">
-          Have questions?
+          Need support or an accommodation?
           <br />
-          Visit the University Clinic.
+          Contact the Student Affairs Office.
         </p>
         <MedicalDisclaimer className="lg:flex-1" />
       </section>

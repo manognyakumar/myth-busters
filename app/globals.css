@@ -7,15 +7,15 @@
   --color-current: currentColor;
   --color-inherit: inherit;
 
-  --color-blush: #fce7f3;
-  --color-rose: #ec4899;
-  --color-magenta: #be185d;
-  --color-magenta-deep: #9d174d;
-  --color-lavender: #ede9fe;
-  --color-lavender-mid: #c4b5fd;
-  --color-plum: #30152f;
-  --color-plum-end: #4a1d45;
-  --color-ink: #292235;
+  --color-blush: #eef6e4;
+  --color-rose: #f2c14e;
+  --color-magenta: #2f6b3a;
+  --color-magenta-deep: #24552e;
+  --color-lavender: #e3f0f7;
+  --color-lavender-mid: #a9cfe3;
+  --color-plum: #16302a;
+  --color-plum-end: #22463b;
+  --color-ink: #1f2a24;
   --color-white: #ffffff;
   --color-warm-gray: #d7d2cb;
   --color-gold: #e9b949;
@@ -90,6 +90,8 @@ body[data-booth] [href="#main"] {
 :focus-visible {
   outline: 3px solid var(--color-rose);
   outline-offset: 2px;
+  /* Ink inner ring keeps the honey outline visible on white. */
+  box-shadow: 0 0 0 2px var(--color-ink);
 }
 
 /* Icons: Figma line icons rendered as masks so they inherit currentColor. */
